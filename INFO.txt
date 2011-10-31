@@ -1,0 +1,5 @@
+This is the core of the architecture for the planning component of my Ph.D. thesis. I have omitted the technical solvers but included with most of the base classes are some of the more trivial implementations, such as the nearest-neighbor heuristic.
+
+This code integrates into an Air Force command and control architecture as  an "autonomy service" that provides pre-specified planning capabilities.  It was used in humans-in-the-loop simulation experiments as well as hardware flight testing.
+
+I've included this because the I think that inter-relation between different planning components is rather interesting.  The notions of "planner" and "solver" are very abstract which allows one to specify sophisticated behavior using inheritance and simple composition, while writing almost no code.
